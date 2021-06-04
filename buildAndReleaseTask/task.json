@@ -1,6 +1,6 @@
 {
     "$schema": "https://raw.githubusercontent.com/Microsoft/azure-pipelines-task-lib/master/tasks.schema.json",
-    "id": "fca4cf63-c94a-469b-8487-e6deb03493f4",
+    "id": "7db6f3fc-b89f-471e-bc4b-eb5b21e9b9f7",
     "name": "BuildCleanup",
     "friendlyName": "Build Cleanup",
     "description": "Removes all files and folders left behind after a build/pipeline has ran",
@@ -10,12 +10,12 @@
     "version": {
         "Major": 0,
         "Minor": 0,
-        "Patch": 1
+        "Patch": 3
     },
     "minimumAgentVersion": "1.83.0",
     "inputs": [ 
     ],
-    "instanceNameFormat": "Cleanup Sources Directory",
+    "instanceNameFormat": "Build Cleanup",
     "execution": {
       "PowerShell3": {
         "target": "$(currentDirectory)\\Cleanup.ps1",

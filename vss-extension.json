@@ -2,7 +2,7 @@
     "manifestVersion": 1,
     "id": "buildcleanup",
     "name": "Build Cleanup",
-    "version": "0.0.1",
+    "version": "0.0.3",
     "publisher": "TomAustin",
     "repository": {
         "type": "git",
@@ -46,7 +46,7 @@
     ],
     "contributions": [
         {
-            "id": "cleansource-ta",
+            "id": "buildcleanup",
             "type": "ms.vss-distributed-task.task",
             "targets": [
                 "ms.vss-distributed-task.tasks"
